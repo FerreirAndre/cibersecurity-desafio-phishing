@@ -21,27 +21,27 @@
 
 Atualmente, o facebook conta com defesa contra scripts maliciosos, então nossos resultados não são os desejados.
 
-![Screenshot](defesa.png)
+![Screenshot](fotos/defesa.png)
 
 Para resolver este problema, entraremos no site original do facebook e salvaremos salvaremos a pagina (guarde o caminho salvo) e alteraremos a funcionalidade do botão login.
 
-![Screenshot](saveas.png)
+![Screenshot](fotos/saveas.png)
 
 Após isso, vamos analisar o botão de login, responsável por chamar o script que criptografa os dados enviados.
 
-![Screenshot](botao.png)
+![Screenshot](fotos/botao.png)
 
 Ao inspecionar, podemos ver que o nome do botão é ```loginbutton```
 
-![Screenshot](loginbutton.png)
+![Screenshot](fotos/loginbutton.png)
 
 Agora vamos visualizar o source-code da pagina inicial do facebook e copiá-lo para o index.html 
 
-![Screenshot](source.png)
+![Screenshot](fotos/source.png)
 
 Dentro do arquivo index.html, buscaremos o nome ```loginbutton``` e apagaremos o script onde é chamado
 
-![Screenshot](delete.png)
+![Screenshot](fotos/delete.png)
 
 Após salvar, está pronto o clone. 
 
@@ -49,7 +49,7 @@ Após salvar, está pronto o clone.
 
 Em vez de utilizarmos o comando para clonar, utilizaremos o custom import e apontaremos para a pasta onde está salvo nosso site
 
-![Screenshot](custom.png)
+![Screenshot](fotos/custom.png)
 
 ### Testando o site clonado
 
@@ -57,5 +57,5 @@ Agora, no navegador, entraremos no site utilizando o ```IP``` ou ```localhost```
 
 Tudo pronto, em seguida, o teste e o retorno no aplicativo.
 
-![Screenshot](teste.png)
-![Screenshot](senha.png)
+![Screenshot](fotos/teste.png)
+![Screenshot](fotos/senha.png)
